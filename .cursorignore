@@ -1,0 +1,100 @@
+# Dependencies and package directories
+node_modules/
+venv/
+env/
+.env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+eggs/
+*.egg
+wheels/
+
+# Test and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.benchmarks/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# Logs and databases
+*.log
+logs/
+*.sqlite3
+*.db
+*.sql
+
+# Cache and temporary files
+.cache/
+.temp/
+tmp/
+.DS_Store
+Thumbs.db
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Environment and secrets
+.env
+.env.*
+*.env
+secrets/
+credentials/
+config/local.py
+
+# Generated documentation
+docs/_build/
+site/
+_site/
+public/
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+.hg/
+.svn/
+
+# Large media and binary files
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.pdf
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.iso
+
+# Project specific
+data/raw/
+data/processed/
+notebooks/.ipynb_checkpoints/
+models/trained/
+*.model
+*.pkl
+*.joblib 
