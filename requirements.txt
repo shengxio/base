@@ -5,4 +5,4 @@ pytest-benchmark==4.0.0
 pytest-xdist==3.5.0
 pytest-timeout==2.2.0
 gunicorn==22.0.0
-requests==2.31.0 
+requests==2.32.2 
